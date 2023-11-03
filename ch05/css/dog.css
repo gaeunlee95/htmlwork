@@ -1,4 +1,11 @@
 /* float-navbar.html에 연결 */
+/* 웹 폰트 임포트 경로는 맨 위에 위치 */
+
+/* import 혹은 link 추가 / font-family로 폰트 변경 */
+/* 각 폰트 별로 import 할 필요없음 */
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;600&family=Nanum+Gothic+Coding:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Linefont&family=Merienda:wght@300;600&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@100&display=swap');
+
 *{margin: 0; padding: 0;}
 #container{
     width: 1000px;
@@ -11,7 +18,7 @@ header{
     background: #069;
 }
 header #logo{
-    width: 30%;
+    width: 30%; /* header 크기의 30%*/
     float: left;
     line-height: 80px;  /* 수직 정렬 - 가운데 */
 }
@@ -19,6 +26,9 @@ header #logo{
     color: greenyellow;
     padding-left: 20px; 
     font-style: italic;
+    /* font-family: Nanum Gothic Coding; */
+    /* font-family: Merienda; */
+    font-family: Black Han Sans;
 }
 header nav{
     width: 70%;
