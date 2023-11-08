@@ -14,7 +14,7 @@
   color: blue;
 }
 /* 모든 자식요소중 n번째 자식 요소 */
-.contents :nth-child(2){ /* 2n - 짝수 / 2n+1 - 홀수 */
+.contents :nth-child(2n){ /* 2n - 짝수 / 2n+1 - 홀수 */
    background-color: yellow;
 }
 .contents :last-child{
@@ -29,10 +29,11 @@
 /* .contents :nth-last-child(2){
   color: green;
 } */
-/* .contents h2:nth-of-type(2){
+.contents h2:nth-of-type(2){
+  color: green;
+  font-style: italic;
+}
+/* .contents :nth-child(5){
   color: green;
 } */
-.contents :nth-child(5){
-  color: green;
-}
 
